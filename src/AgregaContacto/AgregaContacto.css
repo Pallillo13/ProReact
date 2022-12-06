@@ -1,0 +1,71 @@
+.fondo
+{
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ventana
+{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0 , 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: all .3s ease;
+}
+.ventana h3
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.ventana .contenedor input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 25px;
+    line-height: 52px;
+    font-size: 15px;
+    border: none;
+    border: solid 1px;
+    border-radius: 3px;
+}
+.ventana .agregar
+{
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 5px 5px;
+    border: none;
+    color: white;
+    background: rgb(0, 97, 0);
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.ventana .agregar:hover
+{
+    background: rgba(0, 97, 0, 0.9);
+}
+.ventana .cancelar
+{
+    margin-top: 15px;
+    padding: 5px 5px;
+    border: none;
+    color: white;
+    background: rgb(182, 0, 0);
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.ventana .cancelar:hover
+{
+    background: rgba(182, 0, 0, 0.9);
+}
